@@ -1,4 +1,4 @@
-soname = libruby-1.9.1.so.1.9
+soname = $(shell sed -n -e 's/Soname: *// p' fakeruby.equivs)
 package = $(shell sed -n -e 's/Package: *// p' fakeruby.equivs)
 version = $(shell sed -n -e 's/Version: *// p' fakeruby.equivs) 
 debversion = $(lastword $(subst :, ,$(version)))

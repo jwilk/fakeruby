@@ -4,6 +4,7 @@ Homepage: http://bitbucket.org/jwilk/fakeruby
 Standards-Version: 3.9.2
 
 Package: libruby1.9.1
+Soname: libruby-1.9.1.so.1.9
 Version: 1:0+fakeruby1
 Maintainer: Jakub Wilk <jwilk@debian.org>
 Files: libruby-1.9.1.so.1.9 /usr/lib/
