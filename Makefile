@@ -8,8 +8,9 @@ deb = $(package)_$(debversion)_all.deb
 .PHONY: all
 all: $(deb)
 
+DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
 
-fakeruby.c: /usr/lib/$(soname)
+fakeruby.c: /usr/lib/$(DEB_HOST_MULTIARCH)/$(soname)
 	./genfakelib $(<) > $(@)+
 	mv $(@)+ $(@)
 
