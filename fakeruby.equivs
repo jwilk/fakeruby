@@ -1,7 +1,6 @@
 Section: libs
 Priority: extra
 Homepage: http://bitbucket.org/jwilk/fakeruby
-Standards-Version: 3.9.2
 
 Package: libruby2.0
 Soname: libruby-2.0.so.2.0
