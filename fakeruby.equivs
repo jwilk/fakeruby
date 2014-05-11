@@ -1,6 +1,6 @@
 Section: libs
 Priority: extra
-Homepage: http://bitbucket.org/jwilk/fakeruby
+Homepage: https://bitbucket.org/jwilk/fakeruby
 
 Package: libruby2.0
 Soname: libruby-2.0.so.2.0
