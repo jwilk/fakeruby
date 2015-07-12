@@ -26,4 +26,4 @@ $(soname): fakeruby.c
 clean:
 	rm -f *.c *.deb *.so.*
 
-# vim:ts=4 sw=4 noet
+# vim:ts=4 sts=4 sw=4 noet
