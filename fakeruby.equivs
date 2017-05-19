@@ -5,6 +5,6 @@ Homepage: https://github.com/jwilk/fakeruby
 Package: libruby2.3
 Soname: libruby-2.3.so.2.3
 Version: 1:0+fakeruby1
-Maintainer: Jakub Wilk <jwilk@debian.org>
+Maintainer: Jakub Wilk <jwilk@jwilk.net>
 Files: libruby-2.3.so.2.3 /usr/lib/
 Description: dummy replacement for the Ruby 2.3 library
