@@ -2,9 +2,9 @@ Section: libs
 Priority: extra
 Homepage: https://github.com/jwilk/fakeruby
 
-Package: libruby2.5
-Soname: libruby-2.5.so.2.5
+Package: libruby2.7
+Soname: libruby-2.7.so.2.7
 Version: 1:0+fakeruby1
 Maintainer: Jakub Wilk <jwilk@jwilk.net>
-Files: libruby-2.5.so.2.5 /usr/lib/
-Description: dummy replacement for the Ruby 2.5 library
+Files: libruby-2.7.so.2.7 /usr/lib/
+Description: dummy replacement for the Ruby 2.7 library
