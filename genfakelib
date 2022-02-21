@@ -7,6 +7,8 @@ import argparse
 import re
 import subprocess as ipc
 
+0_0  # Python >= 3.6 is required
+
 line_match = re.compile(
 r'''
 ^
