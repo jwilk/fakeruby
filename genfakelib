@@ -41,9 +41,9 @@ def main():
         tp = match.group('type')
         name = match.group('name')
         if tp == 'FUNC':
-            print('int {name}() {{ return -1; }}'.format(name=name))
+            print(f'int {name}() {{ return -1; }}')
         elif tp == 'OBJECT':
-            print('char {name}[{size}];'.format(name=name, size=size))
+            print(f'char {name}[{size}];')
 
 if __name__ == '__main__':
     main()
