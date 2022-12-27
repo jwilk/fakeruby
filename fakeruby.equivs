@@ -2,9 +2,9 @@ Section: libs
 Priority: extra
 Homepage: https://github.com/jwilk/fakeruby
 
-Package: libruby3.0
-Soname: libruby-3.0.so.3.0
+Package: libruby3.1
+Soname: libruby-3.1.so.3.1
 Version: 1:0+fakeruby1
 Maintainer: Jakub Wilk <jwilk@jwilk.net>
-Files: libruby-3.0.so.3.0 /usr/lib/
-Description: dummy replacement for the Ruby 3.0 library
+Files: libruby-3.1.so.3.1 /usr/lib/
+Description: dummy replacement for the Ruby 3.1 library
