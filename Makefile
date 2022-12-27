@@ -24,6 +24,6 @@ $(soname): fakeruby.c
 
 .PHONY: clean
 clean:
-	rm -f *.c *.deb *.so.*
+	rm -f *.c *.deb *.changes *.buildinfo *.so.*
 
 # vim:ts=4 sts=4 sw=4 noet
