@@ -25,6 +25,7 @@ r'''
 
 def main():
     ap = argparse.ArgumentParser()
+    ap.color = False
     ap.add_argument('library', metavar='LIBRARY')
     options = ap.parse_args()
     readelf = ipc.Popen(
